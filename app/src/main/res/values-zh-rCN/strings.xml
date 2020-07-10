@@ -148,7 +148,7 @@
   <string name="ContactShareEditActivity_type_missing">其他</string>
   <string name="ContactShareEditActivity_invalid_contact">所选联系人无效</string>
   <!--ConversationItem-->
-  <!-- Removed by excludeNonTranslatables <string name="ConversationItem_error_not_delivered">发送失败，点击查看详情</string> -->
+  <string name="ConversationItem_error_network_not_delivered">发送失败</string>
   <string name="ConversationItem_received_key_exchange_message_tap_to_process">已收到密钥交换消息，点击处理。</string>
   <string name="ConversationItem_group_action_left">%1$s 已经离开该群组。</string>
   <string name="ConversationItem_click_to_approve_unencrypted">发送失败，点击使用不安全的方式发送</string>
@@ -276,8 +276,6 @@
   <plurals name="ConversationListFragment_moved_conversations_to_inbox">
     <item quantity="other">已将 %d 个对话移至收件箱</item>
   </plurals>
-  <!-- Removed by excludeNonTranslatables <string name="ConversationListFragment__your_profile_name_has_been_created">您的配置文件名已经创建。</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="ConversationListFragment__your_profile_name_has_been_saved">您的配置文件名已经保存。</string> -->
   <!--ConversationListItem-->
   <string name="ConversationListItem_key_exchange_message">密钥交换消息</string>
   <!--ConversationListItemAction-->
@@ -533,8 +531,11 @@
   <string name="MessageRecord_s_joined_the_group">%1$s 加入群组。</string>
   <!--GV2 member removals-->
   <!--GV2 role change-->
+  <string name="MessageRecord_you_are_now_an_admin">你被设置为管理员。</string>
   <!--GV2 invitations-->
+  <string name="MessageRecord_you_were_invited_to_the_group">你被邀请加入此群</string>
   <!--GV2 invitation revokes-->
+  <string name="MessageRecord_your_invitation_to_the_group_was_revoked">对你的入群邀请已失效。</string>
   <!--GV2 invitation acceptance-->
   <!--GV2 title change-->
   <!--GV2 avatar change-->
@@ -1054,6 +1055,8 @@
   <string name="QuoteView_original_missing">未找到原始消息</string>
   <!--conversation_fragment-->
   <string name="conversation_fragment__scroll_to_the_bottom_content_description">滚动到底部</string>
+  <!--safety_number_change_dialog-->
+  <string name="safety_number_change_dialog__view">查看</string>
   <!--country_selection_fragment-->
   <string name="country_selection_fragment__loading_countries">正在加载国家…</string>
   <string name="country_selection_fragment__search">搜索</string>
@@ -1388,6 +1391,7 @@
   <string name="preferences_communication__sealed_sender_allow_from_anyone">允许来自任何人</string>
   <string name="preferences_communication__sealed_sender_allow_from_anyone_description">对于非联系人和未与其分享个人资料的其他人，启用传入消息的加密发送人功能。</string>
   <string name="preferences_communication__sealed_sender_learn_more">了解更多</string>
+  <!--Internal only preferences-->
   <!--****************************************-->
   <!--menus-->
   <!--****************************************-->
@@ -1604,13 +1608,6 @@
   <string name="KbsMegaphone__update_pin">更新 PIN</string>
   <string name="KbsMegaphone__well_remind_you_later_creating_a_pin">稍后您会被提示。在%1$d天内会强制要求创建PIN码。</string>
   <string name="KbsMegaphone__well_remind_you_later_confirming_your_pin">稍后您会被提示。在%1$d天内会强制要求确认你的PIN码。</string>
-  <!--Profile Names Megaphone-->
-  <!-- Removed by excludeNonTranslatables <string name="ProfileNamesMegaphone__add_a_profile_name">添加一个用户名</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="ProfileNamesMegaphone__this_will_be_displayed_when_you_start">当您开始新的对话或分享时，将显示此内容。</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="ProfileNamesMegaphone__add_profile_name">添加用户名</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="ProfileNamesMegaphone__confirm_your_profile_name">确认您的用户名</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="ProfileNamesMegaphone__your_profile_can_now_include">您的个人资料现在可以包含可选的姓氏。</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="ProfileNamesMegaphone__confirm_name">确认姓名</string> -->
   <!--transport_selection_list_item-->
   <string name="transport_selection_list_item__transport_icon">传输图标</string>
   <string name="ConversationListFragment_loading">正在加载…</string>

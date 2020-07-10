@@ -163,7 +163,9 @@
   <string name="ContactShareEditActivity_type_missing">Arall</string>
   <string name="ContactShareEditActivity_invalid_contact">Roedd y cyswllt hwn yn annilys</string>
   <!--ConversationItem-->
-  <!-- Removed by excludeNonTranslatables <string name="ConversationItem_error_not_delivered">Methodd yr anfon, tapiwch am fanylion</string> -->
+  <string name="ConversationItem_error_not_sent_tap_for_details">Heb ei hanfon, tapiwch am fanylion</string>
+  <string name="ConversationItem_error_partially_not_delivered">Wedi\'i hanfon yn rhannol, tapiwch am fanylion</string>
+  <string name="ConversationItem_error_network_not_delivered">Methodd yr anfon</string>
   <string name="ConversationItem_received_key_exchange_message_tap_to_process">Wedi derbyn neges cyfnewid allwedd, tapiwch i brosesu.</string>
   <string name="ConversationItem_group_action_left">Mae %1$s wedi gadael y grŵp.</string>
   <string name="ConversationItem_click_to_approve_unencrypted">Methodd yr anfon, tapiwch am gam nôl anniogel</string>
@@ -293,6 +295,7 @@ Send neges heb ei ddiogelu?</string>
   <string name="ConversationFragment_deleting_messages">Dileu negeseuon…</string>
   <string name="ConversationFragment_delete_for_me">Dileu i mi</string>
   <string name="ConversationFragment_delete_for_everyone">Dileu i bawb</string>
+  <string name="ConversationFragment_this_message_will_be_permanently_deleted_for_everyone">Bydd y neges hon yn cael ei dileu yn barhaol i bawb sydd yn y sgwrs. Bydd aelodau\'n gallu gweld eich bod wedi dileu y neges.</string>
   <string name="ConversationFragment_quoted_message_not_found">Heb ganfod y neges wreiddiol</string>
   <string name="ConversationFragment_quoted_message_no_longer_available">Nid yw\'r neges wreiddiol bellach ar gael</string>
   <string name="ConversationFragment_failed_to_open_message">Methu agor neges</string>
@@ -332,8 +335,6 @@ Send neges heb ei ddiogelu?</string>
     <item quantity="many">Symudwyd %d sgwrs i\'r blwch derbyn</item>
     <item quantity="other">Symudwyd %d sgwrs i\'r blwch derbyn</item>
   </plurals>
-  <!-- Removed by excludeNonTranslatables <string name="ConversationListFragment__your_profile_name_has_been_created">Mae\'ch enw proffil wedi\'i greu.</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="ConversationListFragment__your_profile_name_has_been_saved">Mae\'ch enw proffil wedi\'i gadw.</string> -->
   <!--ConversationListItem-->
   <string name="ConversationListItem_key_exchange_message">Neges cyfnewid allwedd</string>
   <!--ConversationListItemAction-->
@@ -724,6 +725,7 @@ Send neges heb ei ddiogelu?</string>
   <string name="MessageRecord_you_revoked_admin_privileges_from_s">Rydych wedi ddirymu breintiau gweinyddol %1$s.</string>
   <string name="MessageRecord_s_revoked_your_admin_privileges">Mae %1$s wedi dirymu\'ch breintiau gweinyddol. \"</string>
   <string name="MessageRecord_s_revoked_admin_privileges_from_s">Mae %1$s wedi dirymu breintiau gweinyddol %2$s.</string>
+  <string name="MessageRecord_you_are_now_an_admin">Rydych nawr yn weinyddwr.</string>
   <!--GV2 invitations-->
   <string name="MessageRecord_you_invited_s_to_the_group">Fe wnaethoch chi wahodd %1$s i\'r grŵp.</string>
   <string name="MessageRecord_s_invited_you_to_the_group">Fe wnaeth %1$s eich gwahodd i\'r grŵp.</string>
@@ -733,6 +735,7 @@ Send neges heb ei ddiogelu?</string>
     <item quantity="many">Fe wnaeth %1$s wahodd %2$d person i\'r grŵp.</item>
     <item quantity="other">Fe wnaeth %1$s wahodd %2$d person i\'r grŵp.</item>
   </plurals>
+  <string name="MessageRecord_you_were_invited_to_the_group">Fe\'ch gwahoddwyd i\'r grŵp.</string>
   <!--GV2 invitation revokes-->
   <plurals name="MessageRecord_you_revoked_invites">
     <item quantity="one">Fe wnaethoch chi ddirymu gwahoddiad i\'r grŵp.</item>
@@ -748,6 +751,7 @@ Send neges heb ei ddiogelu?</string>
   </plurals>
   <string name="MessageRecord_someone_declined_an_invitation_to_the_group">Fe wnaeth rhywun wrthod gwahoddiad i\'r grŵp.</string>
   <string name="MessageRecord_you_declined_the_invitation_to_the_group">Fe wnaethoch chi wrthod gwahoddiad i\'r grŵp.</string>
+  <string name="MessageRecord_your_invitation_to_the_group_was_revoked">Dirymwyd eich gwahoddiad i\'r grŵp.</string>
   <!--GV2 invitation acceptance-->
   <string name="MessageRecord_you_accepted_invite">Fe wnaethoch chi dderbyn y gwahoddiad i\'r grŵp.</string>
   <string name="MessageRecord_s_accepted_invite">Fe wnaeth %1$s dderbyn gwahoddiad i\'r grŵp.</string>
@@ -1095,6 +1099,7 @@ Send neges heb ei ddiogelu?</string>
   <string name="UsernameEditFragment_encountered_a_network_error">Profwyd gwall rhwydwaith.</string>
   <string name="UsernameEditFragment_this_username_is_taken">Mae\'r enw defnyddiwr yma\'n wedi ei gymryd.</string>
   <string name="UsernameEditFragment_this_username_is_available">Mae\'r enw defnyddiwr yma ar gael.</string>
+  <string name="UsernameEditFragment_usernames_can_only_include">Dim ond a–Z, 0–9 a thanlinellu y gall enwau defnyddwyr eu cynnwys.</string>
   <string name="UsernameEditFragment_usernames_cannot_begin_with_a_number">Nid yw enw defnyddiwr yn gallu cychwyn gyda rhif.</string>
   <string name="UsernameEditFragment_username_is_invalid">Mae\'r enw defnyddiwr yn annilys.</string>
   <string name="UsernameEditFragment_usernames_must_be_between_a_and_b_characters">Rhaid i enwau defnyddwyr fod rhwng %1$d a %2$d nod.</string>
@@ -1311,6 +1316,7 @@ Send neges heb ei ddiogelu?</string>
   <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Recordio ac anfon atodiad sain</string>
   <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Cloi recordio atodiad sain</string>
   <string name="conversation_activity__enable_signal_for_sms">Galluogi Signal ar gyfer SMS</string>
+  <string name="conversation_activity__message_could_not_be_sent">Nid oedd modd anfon y neges. Gwiriwch eich cysylltiad a cheisio eto.</string>
   <!--conversation_input_panel-->
   <string name="conversation_input_panel__slide_to_cancel">Llithro i ddiddymu</string>
   <string name="conversation_input_panel__cancel">Diddymu</string>
@@ -1338,6 +1344,12 @@ Send neges heb ei ddiogelu?</string>
   <string name="QuoteView_original_missing">Heb ganfod y neges wreiddiol</string>
   <!--conversation_fragment-->
   <string name="conversation_fragment__scroll_to_the_bottom_content_description">Sgrolio i\'r gwaelod</string>
+  <!--safety_number_change_dialog-->
+  <string name="safety_number_change_dialog__safety_number_changes">Newidiadau Rhifau Diogelwch</string>
+  <string name="safety_number_change_dialog__send_anyway">Anfon beth bynnag</string>
+  <string name="safety_number_change_dialog__the_following_people_may_have_reinstalled_or_changed_devices">Gall fod y bobl ganlynol fod wedi ailosod neu newid dyfeisiau. Gwiriwch eich rhif diogelwch gyda nhw i sicrhau preifatrwydd.</string>
+  <string name="safety_number_change_dialog__view">Golwg</string>
+  <string name="safety_number_change_dialog__previous_verified">Wedi\'u dilysu\'n flaenorol</string>
   <!--country_selection_fragment-->
   <string name="country_selection_fragment__loading_countries">Yn llwytho gwledydd…</string>
   <string name="country_selection_fragment__search">Chwilio</string>
@@ -1714,6 +1726,7 @@ Send neges heb ei ddiogelu?</string>
   <string name="preferences_communication__sealed_sender_allow_from_anyone">Caniatáu gan bawb</string>
   <string name="preferences_communication__sealed_sender_allow_from_anyone_description">Galluogwch anfon dan sêl ar gyfer negeseuon i mewn gan y sawl sydd ddim yn gysylltiad a phobl nad ydych wedi rhannu eich proffil.</string>
   <string name="preferences_communication__sealed_sender_learn_more">Dysgu rhagor</string>
+  <!--Internal only preferences-->
   <!--****************************************-->
   <!--menus-->
   <!--****************************************-->
@@ -1960,13 +1973,6 @@ Send neges heb ei ddiogelu?</string>
   <string name="KbsMegaphone__update_pin">Diweddaru PIN</string>
   <string name="KbsMegaphone__well_remind_you_later_creating_a_pin">Byddwn yn eich atgoffa\'n ddiweddarach. Bydd creu PIN yn dod yn orfodol ymhen %1$d diwrnod.</string>
   <string name="KbsMegaphone__well_remind_you_later_confirming_your_pin">Byddwn yn eich atgoffa\'n ddiweddarach. Bydd creu PIN yn dod yn orfodol ymhen %1$d diwrnod.</string>
-  <!--Profile Names Megaphone-->
-  <!-- Removed by excludeNonTranslatables <string name="ProfileNamesMegaphone__add_a_profile_name">Ychwanegu enw proffil</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="ProfileNamesMegaphone__this_will_be_displayed_when_you_start">Bydd hyn yn cael ei ddangos pan fyddwch yn cychwyn sgwrs newydd a\'i rannu.</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="ProfileNamesMegaphone__add_profile_name">Ychwanegu Enw Proffil</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="ProfileNamesMegaphone__confirm_your_profile_name">Cadarnhau eich Enw Proffil</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="ProfileNamesMegaphone__your_profile_can_now_include">Gall eich proffil nawr gynnwys enw olaf dewisol.</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="ProfileNamesMegaphone__confirm_name">Cadarnhau Enw</string> -->
   <!--transport_selection_list_item-->
   <string name="transport_selection_list_item__transport_icon">Eicon trafnidiaeth</string>
   <string name="ConversationListFragment_loading">Llwytho…</string>
